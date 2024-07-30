@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+<h1>GAME TRON: PAGINA WEB INFORMATIVA SOBRE LOS DIFERENTES VIDEOJUEGOS Y PROXIMOS LANZAMAIENTOS EN LA INDUSTRIA DE VIDEOJUEGOS.</h1>
+<p>
+  Este proyecto fue creado con la orientacion de crear una pagina web mostrandome una de mis principales diversiones que son los videojuegos. 
+  En este pagina web e utilizado una API para conectarme a un servidor y hacer peticiones sobre toda la informacion de cada videojuego que se ah colocado en la pagina web, tambien utlize React form y la libreria de validacion zod 
+  para validar el input de busqueda (barra de busqueda) y utilize Chackra UI para crear el disenio y maquetacion de dicha pagina web. 
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<h2>
+  Las tegnologias utlizadas en este proyecto fueron: 
+  <ul>
+    <li> REACT.JS</li>
+    <li>REACT FORM</li>
+    <li>ZOD</li>
+    <li>CHACKRA UI</li>
+    <li>API DE RAWG.IO</li>
+  </ul>
+</h2>
